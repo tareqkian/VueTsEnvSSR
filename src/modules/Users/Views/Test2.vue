@@ -20,7 +20,7 @@ watch(
 <template>
   <page-layout>
     <h1><button @click="fetch()">Refresh 2</button></h1>
-    <div>{{ res }}</div>
+    <div><pre>{{ res }}</pre></div>
     <div v-if="err">{{ err }}</div>
   </page-layout>
 </template>
